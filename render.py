@@ -7,6 +7,8 @@ app = Flask(__name__)
 def render_main():
     return render_template('home.html')
 
+           
+
 @app.route('/generator')
 def render_generator():
     return render_template('generator.html')
@@ -15,9 +17,17 @@ def render_generator():
 def render_muscle_group_checklist():
     return render_template('muscle-group-checklist.html')
 
+@app.route('/your-workout') #fix this
+def your_workout():
+    return render_template('your-workout.html')
+
+
+
 @app.route('/exercises') #This one will be a dropdown, need to fix
 def render_exercises():
     return render_template('exercises.html')
+
+
 
 @app.route('/search')
 def render_search():
