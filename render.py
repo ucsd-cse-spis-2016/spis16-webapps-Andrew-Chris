@@ -21,6 +21,8 @@ def render_muscle_group_checklist():
 def your_workout():
     try:
         return render_template('your-workout.html')
+    except ValueError:
+        return "Sorry: something went wrong."
 
 
 
