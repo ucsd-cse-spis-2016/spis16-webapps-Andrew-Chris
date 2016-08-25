@@ -21,12 +21,7 @@ def render_search():
     
 @app.route('/muscle-group-checklist') #fix this
 def render_muscle_group_checklist():
-    try:
-        ftemp_result = float(request.args['fTemp'])
-        ctemp_result = ftoc(ftemp_result)
-        return render_template('ftoc_result.html', fTemp=ftemp_result, cTemp=ctemp_result)
-    except ValueError:
-        return "Sorry: something went wrong."
+    return render_template('muscle-group-checklist.html')
     
 if __name__=="__main__":
     app.run(debug=False, port=54321)
