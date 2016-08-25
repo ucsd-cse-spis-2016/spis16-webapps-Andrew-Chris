@@ -28,7 +28,7 @@ def your_workout():
        core_result = request.args['core']
        quads_result = request.args['quads']
        hammies_result = request.args['hammies']
-       workout_result =  func(bis_result, tris_result, delts_result, pecs_result, lats_result, core_result, quads_result, hammies_result)
+       workout_result =  workout(bis_result, tris_result, delts_result, pecs_result, lats_result, core_result, quads_result, hammies_result)
         return render_template('your-workout.html')
     except ValueError:
         return "Sorry: something went wrong."
