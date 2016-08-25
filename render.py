@@ -7,7 +7,7 @@ app = Flask(__name__)
 def render_main():
     return render_template('home.html')
 
-           
+
 
 @app.route('/generator')
 def render_generator():
@@ -19,7 +19,8 @@ def render_muscle_group_checklist():
 
 @app.route('/your-workout') #fix this
 def your_workout():
-    return render_template('your-workout.html')
+    try:
+        return render_template('your-workout.html')
 
 
 
