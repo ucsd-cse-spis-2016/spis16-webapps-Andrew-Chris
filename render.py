@@ -10,6 +10,10 @@ def render_main():
 @app.route('/generator')
 def render_generator():
     return render_template('generator.html')
+    
+@app.route('/muscle-group-checklist') #fix this
+def render_muscle_group_checklist():
+    return render_template('muscle-group-checklist.html')
 
 @app.route('/exercises') #This one will be a dropdown, need to fix
 def render_exercises():
@@ -19,9 +23,7 @@ def render_exercises():
 def render_search():
     return render_template('search.html')
     
-@app.route('/muscle-group-checklist') #fix this
-def render_muscle_group_checklist():
-    return render_template('muscle-group-checklist.html')
+
     
 if __name__=="__main__":
     app.run(debug=False, port=54321)
