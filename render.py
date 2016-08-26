@@ -56,14 +56,54 @@ def workout(bis_result, tris_result, delts_result, pecs_result, lats_result, cor
 @app.route('/your-workout') #fix this
 def your_workout():
     try:
-        bis_result = bool(request.args['bis'])
-        tris_result = bool(request.args['tris'])
-        delts_result = bool(request.args['delts'])
-        pecs_result = bool(request.args['pecs'])
-        lats_result = bool(request.args['lats'])
-        core_result = bool(request.args['core'])
-        quads_result = bool(request.args['quads'])
-        hammies_result = bool(request.args['hammies'])
+        #bis_result = bool(request.args['bis'])
+        #tris_result = bool(request.args['tris'])
+        #delts_result = bool(request.args['delts'])
+        #pecs_result = bool(request.args['pecs'])
+        #lats_result = bool(request.args['lats'])
+        #core_result = bool(request.args['core'])
+        #quads_result = bool(request.args['quads'])
+        #hammies_result = bool(request.args['hammies'])
+        if request.args['bis'] = null:
+            bis_result = False
+        else:
+            bis_result = True
+        
+        if request.args['tris'] = null:
+            tris_result = False
+        else:
+            tris_result = True
+        
+        if request.args['delts'] = null:
+            delts_result = False
+        else:
+            delts_result = True
+        
+        if request.args['pecs'] = null:
+            pecs_result = False
+        else:
+            pecs_result = True
+        
+        if request.args['lats'] = null:
+            lats_result = False
+        else:
+            lats_result = True
+        
+        if request.args['core'] = null:
+            core_result = False
+        else:
+            core_result = True
+            
+        if request.args['quads'] = null:
+            quads_result = False
+        else:
+            quads_result = True
+        
+        if request.args['hammies'] = null:
+            hammies_result = False
+        else:
+            hammies_result = True
+            
         workout_result =  workout(bis_result, tris_result, delts_result, pecs_result, lats_result, core_result, quads_result, hammies_result)
         return render_template('your-workout.html', Workout=workout_result)
     except ValueError:
