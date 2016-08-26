@@ -64,42 +64,42 @@ def your_workout():
         #core_result = bool(request.args['core'])
         #quads_result = bool(request.args['quads'])
         #hammies_result = bool(request.args['hammies'])
-        if request.args['bis'] = null:
+        if request.args['bis'] == null:
             bis_result = False
         else:
             bis_result = True
         
-        if request.args['tris'] = null:
+        if request.args['tris'] == null:
             tris_result = False
         else:
             tris_result = True
         
-        if request.args['delts'] = null:
+        if request.args['delts'] == null:
             delts_result = False
         else:
             delts_result = True
         
-        if request.args['pecs'] = null:
+        if request.args['pecs'] == null:
             pecs_result = False
         else:
             pecs_result = True
         
-        if request.args['lats'] = null:
+        if request.args['lats'] == null:
             lats_result = False
         else:
             lats_result = True
         
-        if request.args['core'] = null:
+        if request.args['core'] == null:
             core_result = False
         else:
             core_result = True
             
-        if request.args['quads'] = null:
+        if request.args['quads'] == null:
             quads_result = False
         else:
             quads_result = True
         
-        if request.args['hammies'] = null:
+        if request.args['hammies'] == null:
             hammies_result = False
         else:
             hammies_result = True
