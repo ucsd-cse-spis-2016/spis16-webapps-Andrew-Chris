@@ -20,15 +20,15 @@ def render_muscle_group_checklist():
 @app.route('/your-workout') #fix this
 def your_workout():
     try:
-       bis_result = request.args['bis']
-       tris_result = request.args['tris']
-       delts_result = request.args['delts']
-       pecs_result = request.args['pecs']
-       lats_result = request.args['lats']
-       core_result = request.args['core']
-       quads_result = request.args['quads']
-       hammies_result = request.args['hammies']
-       workout_result =  workout(bis_result, tris_result, delts_result, pecs_result, lats_result, core_result, quads_result, hammies_result)
+        bis_result = request.args['bis']
+        tris_result = request.args['tris']
+        delts_result = request.args['delts']
+        pecs_result = request.args['pecs']
+        lats_result = request.args['lats']
+        core_result = request.args['core']
+        quads_result = request.args['quads']
+        hammies_result = request.args['hammies']
+        workout_result =  workout(bis_result, tris_result, delts_result, pecs_result, lats_result, core_result, quads_result, hammies_result)
         return render_template('your-workout.html')
     except ValueError:
         return "Sorry: something went wrong."
