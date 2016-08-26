@@ -56,14 +56,14 @@ def workout(bis_result, tris_result, delts_result, pecs_result, lats_result, cor
 @app.route('/your-workout') #fix this
 def your_workout():
     try:
-        bis_result = request.args['bis']
-        tris_result = request.args['tris']
-        delts_result = request.args['delts']
-        pecs_result = request.args['pecs']
-        lats_result = request.args['lats']
-        core_result = request.args['core']
-        quads_result = request.args['quads']
-        hammies_result = request.args['hammies']
+        bis_result = bool(request.args['bis'])
+        tris_result = bool(request.args['tris'])
+        delts_result = bool(request.args['delts'])
+        pecs_result = bool(request.args['pecs'])
+        lats_result = bool(request.args['lats'])
+        core_result = bool(request.args['core'])
+        quads_result = bool(request.args['quads'])
+        hammies_result = bool(request.args['hammies'])
         workout_result =  workout(bis_result, tris_result, delts_result, pecs_result, lats_result, core_result, quads_result, hammies_result)
         return render_template('your-workout.html', Workout=workout_result)
     except ValueError:
