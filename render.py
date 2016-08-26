@@ -29,7 +29,7 @@ def your_workout():
         quads_result = request.args['quads']
         hammies_result = request.args['hammies']
         workout_result =  workout(bis_result, tris_result, delts_result, pecs_result, lats_result, core_result, quads_result, hammies_result)
-        return render_template('your-workout.html')
+        return render_template('your-workout.html', workout=workout_result)
     except ValueError:
         return "Sorry: something went wrong."
 
