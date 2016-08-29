@@ -1,17 +1,19 @@
 nav {
     background-color:rgb(255,255,255);
     padding:10px 0;
-    z-index: 2;
+    z-index: 10;
     background-color: yellow;
 }
 nav ul {
     list-style-type:none;
     margin:0;
     padding:0;
+    z-index: 10;
 }
 nav ul li {
     display:inline-block;
     position:relative;
+    z-index: 10;
 }
 
 /* sub navigation */
@@ -21,17 +23,20 @@ nav li ul {
     left:0;
     top:40px; /* make this equal to the line-height of the links (specified below) */
     width:200px;
+    z-index: 10;
 }
 nav li li {
     position:relative;
     margin:0;
     display:block;
+    z-index: 10;
 }
 nav li li ul {
     position:absolute;
     top:0;
     left:200px; /* make this equal to the width of the sub nav above */
     margin:0;
+    z-index: 10;
 }
 
 /* style all links */
@@ -39,11 +44,13 @@ nav a {
     line-height:40px;
     padding:0 12px;
     margin:0 12px;
+    z-index: 10;
 }
 nav a {
     color:#fff;
     text-decoration:none;
     display:block;
+    z-index: 10;
 }
 nav a:hover,
 nav a:focus,
@@ -56,9 +63,11 @@ nav li li a {
     border-bottom:solid 1px rgb(200,200,200);
     margin:0 10px;
     padding:0;
+    z-index: 10;
 }
 nav li li:last-child a {
     border-bottom:none;
+    z-index: 10;
 }
 
 /* hide sub menu links */
