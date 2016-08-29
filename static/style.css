@@ -19,7 +19,7 @@ nav ul li {
 nav li ul {    
     background-color:rgb(225,225,225);
     position:absolute;
-    left:100%;
+    left:0;
     top:auto; /* make this equal to the line-height of the links (specified below) */
     width:100%;
     z-index: 10;
