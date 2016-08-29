@@ -77,7 +77,7 @@ def render_exercises():
     
 @app.route('/exercises/bis')
 def render_bis():
-    return render_template('bis.html')
+    return render_template('exercises/bis.html')
 
 
 
