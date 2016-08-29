@@ -21,8 +21,8 @@ nav li ul {
     background-color:rgb(225,225,225);
     position:absolute;
     left:0;
-    top:40px; /* make this equal to the line-height of the links (specified below) */
-    width:200px;
+    top:auto; /* make this equal to the line-height of the links (specified below) */
+    width:100%;
     z-index: 10;
 }
 nav li li {
@@ -33,8 +33,8 @@ nav li li {
 }
 nav li li ul {
     position:absolute;
-    top:0;
-    left:200px; /* make this equal to the width of the sub nav above */
+    top:auto;
+    left:100%; /* make this equal to the width of the sub nav above */
     margin:0;
     z-index: 10;
 }
