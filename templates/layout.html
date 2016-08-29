@@ -4,9 +4,14 @@
   <title>{% block title %}{% endblock %} SPIS Fitness</title>
   <meta charset = "utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-<!-- js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+  <script src="js/jquery-1.9.1.min.js"></script>
+
+<!-- js -->
+  
 <script>
     $(document).ready(function(){
       $('.dropdown').hover(
@@ -22,13 +27,6 @@
       }
     });
 </script>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
-  <script src="js/jquery-1.9.1.min.js"></script>
-
-
 
 
 </head>
