@@ -11,17 +11,22 @@
 
 <!-- js -->
 <script>
-    $(document).ready(function() {
-        $( '.dropdown' ).hover(
-            function(){
-                $(this).children('.sub-menu').slideDown(200);
-            },
-            function(){
-                $(this).children('.sub-menu').slideUp(200);
-            }
-        );
-    }); // end ready
+    $(document).ready(function(){
+      $('.dropdown').hover(
+        function(){
+          $(this).children('.sub-menu').slideDown(200,stop());
+          },
+        function(){
+          $(this).children('.sub-menu').slideUp(200,stop());
+          }
+      );
+      function stop(){
+        $('.sub-menu').stop(true, true);
+      }
+    });
 </script>
+
+
 
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
