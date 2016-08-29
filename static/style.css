@@ -77,7 +77,7 @@ ul.sub-menu {
 }
 
 .input[type=text] {
-    width: 130px;
+    width: auto;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
