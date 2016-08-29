@@ -3,8 +3,8 @@ nav {
 }
 nav ul {
     list-style-type:none;
-    margin:0;
-    padding:0;
+    margin:auto;
+    padding:auto;
     z-index: 10;
 }
 nav ul li {
@@ -17,7 +17,6 @@ nav ul li {
 nav li ul {    
     background-color:rgb(225,225,225);
     position:absolute;
-    left:0;
     top:auto; /* make this equal to the line-height of the links (specified below) */
     width:100%;
     z-index: 10;
@@ -39,8 +38,8 @@ nav li li ul {
 /* style all links */
 nav a {
     line-height:auto;
-    padding:0 12px;
-    margin:0 12px;
+    padding:auto;
+    margin:auto;
     z-index: 10;
 }
 nav a {
@@ -58,8 +57,8 @@ nav a:active {
 /* style sub level links */
 nav li li a {
     border-bottom:solid 1px rgb(200,200,200);
-    margin:0 10px;
-    padding:0;
+    margin:auto;
+    padding:auto;
     z-index: 10;
 }
 nav li li:last-child a {
