@@ -79,6 +79,34 @@ def render_exercises():
 def render_bis():
     return render_template('exercises/bis.html')
 
+@app.route('/exercises/tris')
+def render_tris():
+    return render_template('exercises/tris.html')
+    
+@app.route('/exercises/delts')
+def render_delts():
+    return render_template('exercises/delts.html')
+    
+@app.route('/exercises/pecs')
+def render_pecs():
+    return render_template('exercises/pecs.html')
+    
+@app.route('/exercises/lats')
+def render_lats():
+    return render_template('exercises/lats.html')
+    
+@app.route('/exercises/core')
+def render_core():
+    return render_template('exercises/core.html')
+    
+@app.route('/exercises/quads')
+def render_quads():
+    return render_template('exercises/quads.html')
+    
+@app.route('/exercises/hammies')
+def render_hammies():
+    return render_template('exercises/hammies.html')
+
 
 
 @app.route('/search')
@@ -88,4 +116,4 @@ def render_search():
 
     
 if __name__=="__main__":
-    app.run(debug=True, port=54321)
+    app.run(debug=False, port=54321)
