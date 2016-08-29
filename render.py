@@ -74,6 +74,10 @@ def your_workout():
 @app.route('/exercises') #This one will be a dropdown, need to fix
 def render_exercises():
     return render_template('exercises.html')
+    
+@app.route('/exercises/bis')
+def render_bis():
+    return render_template('bis.html')
 
 
 
