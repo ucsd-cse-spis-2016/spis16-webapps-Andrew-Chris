@@ -55,6 +55,7 @@ def workout(bis_result, tris_result, delts_result, pecs_result, lats_result, cor
 
 @app.route('/your-workout') #fix this
 def your_workout():
+    print 'calling your workout'
     try:
         #bis_result = bool(request.args['bis'])
         #tris_result = bool(request.args['tris'])
@@ -64,46 +65,59 @@ def your_workout():
         #core_result = bool(request.args['core'])
         #quads_result = bool(request.args['quads'])
         #hammies_result = bool(request.args['hammies'])
-        if request.args['bis'] == None:
-            bis_result = False
-        else:
-            bis_result = True
+##        if request.args['bis'] == None:
+##            bis_result = False
+##        else:
+##            bis_result = True
+##        if 'bis' in request.args:
+##            bis_result = True
+##        else:
+##            bis_result = False
+
+        bis_result = 'bis' in request.args
+        tris_result = 'tris' in request.args
+        delts_result = 'delts' in request.args
+        pecs_result = 'pecs' in request.args
+        lats_result = 'lats' in request.args
+        core_result = 'core' in request.args
+        quads_result = 'quads' in request.args
+        hammies_result = 'hammies' in request.args
         
-        if request.args['tris'] == None:
-            tris_result = False
-        else:
-            tris_result = True
-        
-        if request.args['delts'] == None:
-            delts_result = False
-        else:
-            delts_result = True
-        
-        if request.args['pecs'] == None:
-            pecs_result = False
-        else:
-            pecs_result = True
-        
-        if request.args['lats'] == None:
-            lats_result = False
-        else:
-            lats_result = True
-        
-        if request.args['core'] == None:
-            core_result = False
-        else:
-            core_result = True
-            
-        if request.args['quads'] == None:
-            quads_result = False
-        else:
-            quads_result = True
-        
-        if request.args['hammies'] == None:
-            hammies_result = False
-        else:
-            hammies_result = True
-            
+##        if request.args['tris'] == None:
+##            tris_result = False
+##        else:
+##            tris_result = True
+##        
+##        if request.args['delts'] == None:
+##            delts_result = False
+##        else:
+##            delts_result = True
+##        
+##        if request.args['pecs'] == None:
+##            pecs_result = False
+##        else:
+##            pecs_result = True
+##        
+##        if request.args['lats'] == None:
+##            lats_result = False
+##        else:
+##            lats_result = True
+##        
+##        if request.args['core'] == None:
+##            core_result = False
+##        else:
+##            core_result = True
+##            
+##        if request.args['quads'] == None:
+##            quads_result = False
+##        else:
+##            quads_result = True
+##        
+##        if request.args['hammies'] == None:
+##            hammies_result = False
+##        else:
+##            hammies_result = True
+        print 'after the if/else, before the template'
         workout_result =  workout(bis_result, tris_result, delts_result, pecs_result, lats_result, core_result, quads_result, hammies_result)
         return render_template('your-workout.html', Workout=workout_result)
     except ValueError:
@@ -124,4 +138,4 @@ def render_search():
 
     
 if __name__=="__main__":
-    app.run(debug=False, port=54321)
+    app.run(debug=True, port=54321)
