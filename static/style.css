@@ -38,7 +38,7 @@ nav li li ul {
 
 /* style all links */
 nav a {
-    line-height:40px;
+    line-height:auto;
     padding:0 12px;
     margin:0 12px;
     z-index: 10;
