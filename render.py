@@ -61,7 +61,7 @@ exercise_2_link['box jumps'] = 'http://www.outsideonline.com/sites/default/files
 
 #Hamstrings
 exercise_2_link['barbell deadlift'] = 'https://www.youtube.com/watch?v=RovZFcTK_Gg'
-exercise_2_link['lying leg curls'] = 'https://www.youtube.com/watch?v=RovZFcTK_Gg'
+exercise_2_link['lying leg curls'] = 'https://www.youtube.com/watch?v=dBo-Pw2a2h8'
 exercise_2_link['single-leg deadlift'] = 'http://www.sweatlikeapig.com/wp-content/uploads/2013/04/single-leg-barbell-straight-leg-deadlift.jpg'
 exercise_2_link['step-ups'] = 'http://cdn.builtlean.com/wp-content/uploads/2011/10/step-ups-leg-superset-cardio-workout-1.jpg'
 exercise_2_link['floor glute-ham raise'] = 'https://www.youtube.com/watch?v=od6refujbEY'
