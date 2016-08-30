@@ -37,7 +37,7 @@ exercise_2_link['cable chest crossover'] = 'https://www.youtube.com/watch?v=taI4
 #Back
 exercise_2_link['pull-ups'] = 'https://qph.ec.quoracdn.net/main-qimg-4436150aea610f6bb632a22d62526242?convert_to_webp=true'
 exercise_2_link['bent-over barbell row'] = 'http://stronglifts.com/wp-content/uploads/barbell-row.jpg'
-exercise_2_link['lat pulldown'] = 'http://cdn-mf1.heartyhosting.com/sites/mensfitness.com/files/styles/photo_gallery_full/public/lat_pulldown_main.jpg?itok=KAmPm2k2'
+exercise_2_link['lat pulldowns'] = 'http://cdn-mf1.heartyhosting.com/sites/mensfitness.com/files/styles/photo_gallery_full/public/lat_pulldown_main.jpg?itok=KAmPm2k2'
 exercise_2_link['one arm dumbbell row'] = 'http://bodybuilding-wizard.com/wp-content/uploads/2014/04/one-arm-dumbbell-row-exercise-guide-01.jpg'
 exercise_2_link['t-bar row'] = 'http://workoutlabs.com/wp-content/uploads/watermarked/Bent_Over_Two-Arm_Long_Bar_Row_M_WorkoutLabs.png'
 exercise_2_link['back extension'] = 'https://s-media-cache-ak0.pinimg.com/564x/8e/67/52/8e6752133217a3f8e7796894e3337dc5.jpg'
