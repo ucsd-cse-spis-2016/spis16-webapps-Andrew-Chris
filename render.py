@@ -34,6 +34,11 @@ exercise_2_link['medicine ball throws'] = 'https://www.youtube.com/watch?v=5lDV_
 exercise_2_link['mountain climbers'] = 'http://hiitacademy.com/wp-content/uploads/2015/02/mountain_climbers.jpg'
 #Quadriceps
 #Hamstrings
+exercise_2_link['barbell deadlift'] = 'https://www.youtube.com/watch?v=RovZFcTK_Gg'
+exercise_2_link['lying leg curls'] = 'https://www.youtube.com/watch?v=RovZFcTK_Gg'
+exercise_2_link['single-leg deadlift'] = 'http://www.sweatlikeapig.com/wp-content/uploads/2013/04/single-leg-barbell-straight-leg-deadlift.jpg'
+exercise_2_link['step-ups'] = 'http://cdn.builtlean.com/wp-content/uploads/2011/10/step-ups-leg-superset-cardio-workout-1.jpg'
+exercise_2_link['floor glute-ham raise'] = 'https://www.youtube.com/watch?v=od6refujbEY'
 
 app = Flask(__name__)
 
