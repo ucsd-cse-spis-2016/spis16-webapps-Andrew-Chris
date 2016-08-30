@@ -14,6 +14,7 @@ exercise_2_link['alternating dumbbell curls'] = 'http://2.bp.blogspot.com/-ErA2X
 exercise_2_link['hammer curls'] = 'http://bodybuilding-wizard.com/wp-content/uploads/2015/08/standing-hammer-curls-2-9.jpg'
 exercise_2_link['zottman curls'] = 'https://www.youtube.com/watch?v=H5Wr4lNYfn8'
 exercise_2_link['spider curls'] = 'http://assets.menshealth.co.uk/main/thumbs/33059/prone-dumbbell-spider-curl__landscape.jpg'
+
 #Triceps
 #Shoulders
 exercise_2_link['barbell overhead press'] = 'http://fitfinity.net/wp-content/uploads/2010/09/barbell-push-press_470x360.jpg'
@@ -21,7 +22,13 @@ exercise_2_link['dumbbell overhead press'] = 'http://cdn-mf1.heartyhosting.com/s
 exercise_2_link['dumbbell front/side raises'] = 'http://10in30.com/wp-content/uploads/2011/04/front-sideraise.jpg'
 exercise_2_link['barbell shoulder rows'] = 'http://assets.menshealth.co.uk/main/thumbs/15479/barbelluprightrowwide__landscape.jpg'
 exercise_2_link['dumbbell shouldre rows'] = 'http://gym-inspiration.com/uploads/images/wideAppeal2.jpg'
+
 #Chest
+exercise_2_link['barbell bench press'] = 'http://stronglifts.com/wp-content/uploads/bench-press.jpg'
+exercise_2_link['dumbbell fly'] = 'http://www.building-muscle101.com/images/xdumbbell-flyes-main.jpg.pagespeed.ic.MVYe92s52y.jpg'
+exercise_2_link['decline push-ups'] = 'http://www.building-muscle101.com/images/xdumbbell-flyes-main.jpg.pagespeed.ic.MVYe92s52y.jpg'
+exercise_2_link['cable chest crossover'] = 'https://www.youtube.com/watch?v=taI4XduLpTk'
+
 #Back
 exercise_2_link['pull-ups'] = 'https://qph.ec.quoracdn.net/main-qimg-4436150aea610f6bb632a22d62526242?convert_to_webp=true'
 exercise_2_link['bent-over barbell row'] = 'http://stronglifts.com/wp-content/uploads/barbell-row.jpg'
@@ -39,6 +46,7 @@ exercise_2_link['v-ups'] = 'http://3hh6gt2tuded1bgtz92lingb-wpengine.netdna-ssl.
 exercise_2_link['side v-ups'] = 'http://www.womenshealthmag.com/sites/womenshealthmag.com/files/images/0912-oblique-v-up.jpg'
 exercise_2_link['medicine ball throws'] = 'https://www.youtube.com/watch?v=5lDV_R-k9js'
 exercise_2_link['mountain climbers'] = 'http://hiitacademy.com/wp-content/uploads/2015/02/mountain_climbers.jpg'
+
 #Quadriceps
 #Hamstrings
 exercise_2_link['barbell deadlift'] = 'https://www.youtube.com/watch?v=RovZFcTK_Gg'
