@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+  
 <head>
   <title>{% block title %}{% endblock %} SPIS Fitness</title>
   <meta charset = "utf-8">
@@ -10,26 +11,24 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
   <script src="js/jquery-1.9.1.min.js"></script>
 
-<!-- Dropdown Menu JS -->
-  
-<script>
-    $(document).ready(function(){
-      $('.dropdown').hover(
-        function(){
-          $(this).children('.sub-menu').slideDown(35,stop());
-          },
-        function(){
-          $(this).children('.sub-menu').slideUp(35,stop());
-          }
-      );
-      function stop(){
-        $('.sub-menu').stop(true, true);
-      }
-    });
-</script>
-
-
+  <!-- Dropdown Menu JS -->
+  <script>
+      $(document).ready(function(){
+        $('.dropdown').hover(
+          function(){
+            $(this).children('.sub-menu').slideDown(35,stop());
+            },
+          function(){
+            $(this).children('.sub-menu').slideUp(35,stop());
+            }
+        );
+        function stop(){
+          $('.sub-menu').stop(true, true);
+        }
+      });
+  </script>
 </head>
+
 <body id="page-top">
   <div id="container" data-role="page">
     {% include 'nav.html' %}
