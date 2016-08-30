@@ -16,6 +16,11 @@ exercise_2_link['zottman curls'] = 'https://www.youtube.com/watch?v=H5Wr4lNYfn8'
 exercise_2_link['spider curls'] = 'http://assets.menshealth.co.uk/main/thumbs/33059/prone-dumbbell-spider-curl__landscape.jpg'
 
 #Triceps
+exercise_2_link['tricep dips'] = 'http://hiitacademy.com/wp-content/uploads/2015/02/tricep_dips_feet_ext-1024x495.jpg'
+exercise_2_link['skullcrushers'] = 'https://www.youtube.com/watch?v=gXbSA9EKUtA'
+exercise_2_link['overhead dumbbell extensions'] = 'http://www.musclemag.com/content/content/9797/dumbbel-overhead-triceps-extension.jpg'
+exercise_2_link['tricep pushdowns'] = 'http://truthofbuildingmuscle.com/wp-content/uploads/2015/01/tricep_pushdown_rope.jpg'
+
 #Shoulders
 exercise_2_link['barbell overhead press'] = 'http://fitfinity.net/wp-content/uploads/2010/09/barbell-push-press_470x360.jpg'
 exercise_2_link['dumbbell overhead press'] = 'http://cdn-mf1.heartyhosting.com/sites/mensfitness.com/files/styles/photo_gallery_full/public/20.-neutral-grip-overhead-press-30-best-shoulder-exercises-of-all-time-shoulders.jpg?itok=K3phJliJ'
