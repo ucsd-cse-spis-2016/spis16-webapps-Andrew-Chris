@@ -1,5 +1,5 @@
 import os
-from flask import Flask, url_for, render_template, request
+from flask import Flask, url_for, render_template, request, session
 
 from collections import defaultdict
 import itertools
@@ -10,13 +10,16 @@ def constant_factory(value):
 exercise_2_link = defaultdict(constant_factory('#'))
 exercise_2_link['spider curls'] = 'http://assets.menshealth.co.uk/main/thumbs/33059/prone-dumbbell-spider-curl__landscape.jpg'
 
+
 app = Flask(__name__)
+app.secret_key='w98fw9ef8hwe98fhwef'   # This sets the secret key for sessions
+
 
 @app.route('/')
 def render_main():
     return render_template('home.html')
 
-
+session.clear()
 
 @app.route('/generator')
 def render_generator():
