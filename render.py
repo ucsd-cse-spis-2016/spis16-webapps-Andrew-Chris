@@ -56,7 +56,7 @@ exercise_2_link['mountain climbers'] = 'http://hiitacademy.com/wp-content/upload
 exercise_2_link['barbell squat'] = 'http://fitover40challenge.com/wp-content/uploads/2015/04/14294333074669-Squat.jpg'
 exercise_2_link['lunges'] = 'http://assets2.tribesports.com/system/guide_photos/images/000/001/811/large/20130423155649-reverse-dumbbell-lunge.jpg?1366729007'
 exercise_2_link['wall-sits'] = 'http://workoutlabs.com/wp-content/uploads/watermarked/Wall_Sit_squat_M_WorkoutLabs.png'
-exercise_2_link['goblet squats'] = 'http://www.directlyfitness.com/store/wp-content/uploads/2012/09/goblet-squat.jpg'
+exercise_2_link['goblet squat'] = 'http://www.directlyfitness.com/store/wp-content/uploads/2012/09/goblet-squat.jpg'
 exercise_2_link['box jumps'] = 'http://www.outsideonline.com/sites/default/files/styles/three-quarter-page-scaled-1x/public/migrated-images/December2011_BoxJumps_11142011_Featured.jpg?itok=miihcTWH'
 
 #Hamstrings
