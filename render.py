@@ -1,6 +1,15 @@
 import os
 from flask import Flask, url_for, render_template, request
 
+from collections import defaultdict
+import itertools
+
+def constant_factory(value):
+    return itertools.repeat(value).next
+
+exercise_2_link = defaultdict(constant_factory('#'))
+exercise_2_link['spider curls'] = 'http://assets.menshealth.co.uk/main/thumbs/33059/prone-dumbbell-spider-curl__landscape.jpg'
+
 app = Flask(__name__)
 
 @app.route('/')
