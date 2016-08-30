@@ -75,3 +75,15 @@ ul.sub-menu {
     z-index:-1;
     background-color:red;
 }
+
+body {
+    
+}
+
+#content {
+    margin-left: 20px;
+}
+
+div.flash-messages {
+    min-height: 4em;
+}
