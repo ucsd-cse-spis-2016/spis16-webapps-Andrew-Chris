@@ -12,9 +12,7 @@ exercise_2_link['spider curls'] = 'http://assets.menshealth.co.uk/main/thumbs/33
 
 
 app = Flask(__name__)
-app.secret_key='w98fw9ef8hwe98fhwef'   # This sets the secret key for sessions
 
-#session.clear()
 
 @app.route('/')
 def render_main():
