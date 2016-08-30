@@ -23,6 +23,13 @@ exercise_2_link['barbell shoulder rows'] = 'http://assets.menshealth.co.uk/main/
 exercise_2_link['dumbbell shouldre rows'] = 'http://gym-inspiration.com/uploads/images/wideAppeal2.jpg'
 #Chest
 #Back
+exercise_2_link['pull-ups'] = 'https://qph.ec.quoracdn.net/main-qimg-4436150aea610f6bb632a22d62526242?convert_to_webp=true'
+exercise_2_link['bent-over barbell row'] = 'http://stronglifts.com/wp-content/uploads/barbell-row.jpg'
+exercise_2_link['lat pulldown'] = 'http://cdn-mf1.heartyhosting.com/sites/mensfitness.com/files/styles/photo_gallery_full/public/lat_pulldown_main.jpg?itok=KAmPm2k2'
+exercise_2_link['one arm dumbbell row'] = 'http://bodybuilding-wizard.com/wp-content/uploads/2014/04/one-arm-dumbbell-row-exercise-guide-01.jpg'
+exercise_2_link['t-bar row'] = 'http://workoutlabs.com/wp-content/uploads/watermarked/Bent_Over_Two-Arm_Long_Bar_Row_M_WorkoutLabs.png'
+exercise_2_link['back extension'] = 'https://s-media-cache-ak0.pinimg.com/564x/8e/67/52/8e6752133217a3f8e7796894e3337dc5.jpg'
+
 #Core
 exercise_2_link['planks'] = 'https://15128-presscdn-0-60-pagely.netdna-ssl.com/wp-content/uploads/2012/09/2012-9-12-Plank-1.jpeg'
 exercise_2_link['russian twists'] = 'http://maltapersonaltraining.com/wp-content/uploads/2014/06/russian-twist-.jpg'
