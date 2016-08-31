@@ -7,6 +7,8 @@ import itertools
 def constant_factory(value):
     return itertools.repeat(value).next
 
+#Creates the dictionary of exercises that the user will get. 
+#Each exercise is also created to have a clickable link to a video or picture on how to do it
 exercise_2_link = defaultdict(constant_factory('#'))
 #Biceps
 exercise_2_link['barbell curls'] = 'http://www.drdarden.com/forum_images/407723.1131124795296.barbell_curl.gif'
@@ -81,7 +83,7 @@ def render_muscle_group_checklist():
     return render_template('muscle-group-checklist.html')
 
 import random
-
+#lists of each exercise for each muscle group 
 biceps = ["barbell curls", "alternating dumbbell curls", "hammer curls", "zottman curls", "spider curls"]
 triceps= ["tricep dips", "skullcrushers", "overhead dumbbell extensions", "tricep pushdowns"]
 shoulders = ["barbell overhead press", "dumbbell overhead press", "dumbbell front/side raises", "barbell shoulder rows", "dumbbell shoulder rows"]
@@ -91,11 +93,11 @@ core = ["planks", "russian twists", "bicycles", "windshield wipers", "v-ups", "s
 quadriceps = ["barbell squat", "lunges", "wall-sits", "goblet squat", "box jumps"]
 hamstrings = ["barbell deadlift", "lying leg curls", "single-leg deadlift", "step-ups", "floor glute-ham raise"]
 
-
+#chooses a random exercise from a certain list
 def randomExercise(list):
     return random.choice(list)
 
-
+#checks True/False if user chose a muscle group & adds appropriate exercises into the new list your_workout
 def workout(bis_result, tris_result, delts_result, pecs_result, lats_result, core_result, quads_result, hammies_result):
     your_workout = []
     if bis_result == True:
@@ -134,7 +136,7 @@ def your_workout():
 
 
 
-@app.route('/exercises') #This one will be a dropdown, need to fix
+@app.route('/exercises') 
 def render_exercises():
     return render_template('exercises.html')
     
