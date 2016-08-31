@@ -8,22 +8,11 @@
 <ul>
  
  {% for w in Workout_list %}
- 
- 
  <li>
+  <!-- Takes the user's workout & provides links for exercise from exercise_2_link dictionary-->
   <a href= '{{ exercise_2_link [w]}}'>{{ w }}</a>
  </li>
- 
- 
- 
- 
  {% endfor %}
  
- 
- 
 </ul>
-
-
-
-
  {%  endblock %}
