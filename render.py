@@ -254,7 +254,7 @@ def your_workout():
         return "Sorry: something went wrong."
 
 
-
+#dropdown menu links/webpages for each muscle group
 @app.route('/exercises') 
 def render_exercises():
     return render_template('exercises.html')
