@@ -71,6 +71,8 @@ ul.sub-menu {
     display:none;
 }
 
-.behind{
+.behind {
     z-index:-1;
     background-color:red;
+
+}
