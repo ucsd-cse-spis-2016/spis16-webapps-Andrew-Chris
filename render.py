@@ -125,11 +125,12 @@ def inject_github_org():
     return dict(github_org=os.getenv('GITHUB_ORG'))
 
 @app.route('/')
-def render_main():
+def home():
     return render_template('home.html')
     
 @app.route('/login')
 def login():
+    print 'we got to login'
     return github.authorize(callback=url_for('authorized', _external=True))
 
 @app.route('/logout')
@@ -147,6 +148,7 @@ def logout():
 
 @app.route('/login/authorized')
 def authorized():
+    print 'we got to authorized'
     resp = github.authorized_response()
 
     if resp is None:
