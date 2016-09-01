@@ -11,18 +11,19 @@ h1 {
     margin: 0 0 23px 0;
     }
 h2 {
+    padding:1em;
     font-family: 'Cantarell', sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
     text-transform: uppercase;
     letter-spacing: -1px;
-    margin: 0 0 23px 0;
+    margin: 0 0 0 0;
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-left-width: 100%;
     border-right-width: 100%;
-    border-color: gray;
+    border-color: #D3D3D3;
     }
 p {
     font-family: 'Cantarell', sans-serif;
