@@ -22,7 +22,7 @@ nav li ul {
     z-index: 10;
 }
 nav li li {
-    position:relative;
+    
     margin:0;
     display:block;
     z-index: 10;
