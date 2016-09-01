@@ -137,6 +137,9 @@ def authorized():
 
     return redirect(url_for('home'))    
 
+
+
+
 @app.route('/generator')
 def render_generator():
     return render_template('generator.html')
