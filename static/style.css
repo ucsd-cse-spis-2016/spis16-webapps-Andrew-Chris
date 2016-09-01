@@ -1,11 +1,11 @@
 nav {
     z-index: 10;
-    padding:10px 0;
+    padding:auto;
 }
 nav ul {
     list-style-type:none;
     margin:0;
-    padding:0;
+    padding:auto;
 }
 nav ul li {
     display:inline-block;
@@ -15,9 +15,9 @@ nav ul li {
 /* sub navigation */
 nav li ul {    
     position:absolute;
-    left:0;
-    top:40px; /* make this equal to the line-height of the links (specified below) */
-    width:200px;
+    left:auto;
+    top:auto; /* make this equal to the line-height of the links (specified below) */
+    width:100%;
 }
 nav li li {
     position:relative;
@@ -33,9 +33,9 @@ nav li li ul {
 
 /* style all links */
 nav a {
-    line-height:40px;
-    padding:0 12px;
-    margin:0 12px;
+    line-height:auto;
+    padding:auto;
+    margin:0;
 }
 nav a {
     color:#fff;
@@ -51,8 +51,8 @@ nav a:active {
 /* style sub level links */
 nav li li a {
     border-bottom:solid 1px rgb(200,50,50);
-    margin:0 10px;
-    padding:0;
+    margin:0;
+    padding:auto;
 }
 nav li li:last-child a {
     border-bottom:none;
