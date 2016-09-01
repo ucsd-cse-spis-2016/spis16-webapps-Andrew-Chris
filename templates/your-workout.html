@@ -12,7 +12,7 @@
  {% for w in Workout_list %}
  <li>
   <!-- Takes the user's workout & provides links for exercise from exercise_2_link dictionary-->
-  <h2><a href= '{{ exercise_2_link [w]}}'>{{ w }}</a></h2>
+  <h2><a href= '{{ exercise_2_link [w]}}'>{{ w }}</a>
   <br>
   <br>
   {% if is_video( exercise_2_link [w] ): %}
@@ -22,8 +22,10 @@
   {% endif %}
   <br>
   <br>
+  </h2>
   <br>
   <br>
+  
  </li>
   
  {% endfor %}
