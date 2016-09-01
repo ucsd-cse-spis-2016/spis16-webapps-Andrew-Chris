@@ -11,9 +11,9 @@
  <li>
   <!-- Takes the user's workout & provides links for exercise from exercise_2_link dictionary-->
   <a href= '{{ exercise_2_link [w]}}'>{{ w }}</a><br>
-  {% if is_video({{ exercise_2_link [w]}}) %}
+  {% if is_video({{ exercise_2_link [w]}}): %}
   <img src='{{ exercise_2_link [w]}}' style="max-width:800px; max-height:800px;">
-  {% else %}
+  {% else: %}
   <p>video here</p>
   {% endif %}
  </li>
