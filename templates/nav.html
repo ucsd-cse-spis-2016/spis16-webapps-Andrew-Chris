@@ -31,9 +31,9 @@
             </ul>
         </li>
 	{% if logged_in %}
-	<li class="dropdown" id="github">
+	<li class="dropdown">
           	<a href="#">
-            		<img src="{{ session['user_data']['avatar_url'] }}&s=30" width="30px" height="30px" style="display: inline-block;" >
+            		<img src="{{ session['user_data']['avatar_url'] }}&s=30" width="30px" height="30px" style="display: inline;" >
 		</a>
 		<ul class="sub-menu">
 			<li><a href="/logout">Logout</a></li>
