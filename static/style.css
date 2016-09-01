@@ -24,13 +24,13 @@ nav li ul {
 }
 nav li li {
     z-index: 10;
-    position:absolute;
+    position:relative;
     margin:0;
     display:block;
 }
 nav li li ul {
     z-index: 10;
-    position:relative;
+    position:absolute;
     top:0;
     left:auto; /* make this equal to the width of the sub nav above */
     margin:0;
