@@ -244,4 +244,4 @@ def get_github_oauth_token():
     return session.get('github_token')
     
 if __name__=="__main__":
-    app.run(debug=False, port=54322)
+    app.run(debug=True, port=54322)
