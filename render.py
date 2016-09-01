@@ -24,13 +24,14 @@ if os.getenv('GITHUB_CLIENT_ID') == None or \
          APP_SECRET_KEY
       ''')
 
+
+'''
 from collections import defaultdict
 import itertools
 
 def constant_factory(value):
     return itertools.repeat(value).next
 
-'''
 #Creates the dictionary of exercises that the user will get. 
 #Each exercise is also created to have a clickable link to a video or picture on how to do it
 exercise_2_link = defaultdict(constant_factory('#'))
