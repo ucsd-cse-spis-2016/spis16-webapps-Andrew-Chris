@@ -1,52 +1,46 @@
 nav {
     z-index: 10;
+    padding:10px 0;
 }
 nav ul {
     list-style-type:none;
-    margin:auto;
-    padding:auto;
-    z-index: 10;
+    margin:0;
+    padding:0;
 }
 nav ul li {
     display:inline-block;
     position:relative;
-    z-index: 10;
 }
 
 /* sub navigation */
 nav li ul {    
-    background-color:rgb(225,225,225);
     position:absolute;
-    top:auto; /* make this equal to the line-height of the links (specified below) */
-    width:100%;
-    z-index: 10;
+    left:0;
+    top:40px; /* make this equal to the line-height of the links (specified below) */
+    width:200px;
 }
 nav li li {
     position:relative;
     margin:0;
     display:block;
-    z-index: 10;
 }
 nav li li ul {
     position:absolute;
-    top:auto;
-    left:100%; /* make this equal to the width of the sub nav above */
+    top:0;
+    left:200px; /* make this equal to the width of the sub nav above */
     margin:0;
-    z-index: 10;
 }
 
 /* style all links */
 nav a {
-    line-height:auto;
-    padding:auto;
-    margin:auto;
-    z-index: 10;
+    line-height:40px;
+    padding:0 12px;
+    margin:0 12px;
 }
 nav a {
     color:#fff;
     text-decoration:none;
     display:block;
-    z-index: 10;
 }
 nav a:hover,
 nav a:focus,
@@ -56,14 +50,12 @@ nav a:active {
 
 /* style sub level links */
 nav li li a {
-    border-bottom:solid 1px rgb(200,200,200);
-    margin:auto;
-    padding:auto;
-    z-index: 10;
+    border-bottom:solid 1px rgb(200,50,50);
+    margin:0 10px;
+    padding:0;
 }
 nav li li:last-child a {
     border-bottom:none;
-    z-index: 10;
 }
 
 /* hide sub menu links */
@@ -71,19 +63,6 @@ ul.sub-menu {
     display:none;
 }
 
-.behind {
-    z-index:-1;
-    background-color:red;
-
-}
-
-body {
-
-}
-
-#content {
-     margin-left: 20px;
-}
 
 div.flash-messages {
   min-height: 4em;
