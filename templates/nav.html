@@ -30,18 +30,16 @@
                 <li><a href="/exercises/hammies">Hamstrings</a></li>
             </ul>    
         </li>
-    </ul>
-    <ul>
       {% if logged_in %}
-        <li>
+        <li width="0">
           <a href="#">
             <img src="{{ session['user_data']['avatar_url'] }}&s=30" 
 		        width="30px" height="30px" style="display: inline-block;" >
 		</a>
 	</li>
-        <li> Github ID: {{ session['user_data']['login']}}</li>
+        <li width="0"> Github ID: {{ session['user_data']['login']}}</li>
 	    {% endif %}
-        <li>
+        <li width="0">
 	    {% if logged_in %}
 	      <a href="/logout">Logout</a>
 	    {% else %}
