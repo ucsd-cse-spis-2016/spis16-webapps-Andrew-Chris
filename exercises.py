@@ -61,10 +61,10 @@ exercise_2_link['back extension'] = 'https://s-media-cache-ak0.pinimg.com/564x/8
 exercise_2_link['planks'] = 'https://15128-presscdn-0-60-pagely.netdna-ssl.com/wp-content/uploads/2012/09/2012-9-12-Plank-1.jpeg'
 exercise_2_link['russian twists'] = 'http://maltapersonaltraining.com/wp-content/uploads/2014/06/russian-twist-.jpg'
 exercise_2_link['bicycles'] = 'http://hiitacademy.com/wp-content/uploads/2015/02/bicycle_abs.jpg'
-exercise_2_link['windshield wipers'] = 'https://www.youtube.com/watch?v=Fuccu9GFO6g'
+exercise_2_link['windshield wipers'] = 'https://www.youtube.com/embed/Fuccu9GFO6g'
 exercise_2_link['v-ups'] = 'https://www.youtube.com/embed/iP2fjvG0g3w'
 exercise_2_link['side v-ups'] = 'http://www.womenshealthmag.com/sites/womenshealthmag.com/files/images/0912-oblique-v-up.jpg'
-exercise_2_link['medicine ball throws'] = 'https://www.youtube.com/watch?v=5lDV_R-k9js'
+exercise_2_link['medicine ball throws'] = 'https://www.youtube.com/embed/5lDV_R-k9js'
 exercise_2_link['mountain climbers'] = 'http://hiitacademy.com/wp-content/uploads/2015/02/mountain_climbers.jpg'
 
 #Quadriceps
