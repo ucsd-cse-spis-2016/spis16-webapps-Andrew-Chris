@@ -20,7 +20,7 @@ nav li ul {
     width:100%;
 }
 nav li li {
-    position:below;
+    position:relative;
     margin:0;
     display:block;
 }
