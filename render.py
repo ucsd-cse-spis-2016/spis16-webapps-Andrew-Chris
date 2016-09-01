@@ -3,7 +3,7 @@ from flask_oauthlib.client import OAuth
 from flask import render_template, flash, Markup
 
 from github import Github
-
+import workout2
 import pprint
 import os
 import sys
@@ -30,6 +30,7 @@ import itertools
 def constant_factory(value):
     return itertools.repeat(value).next
 
+'''
 #Creates the dictionary of exercises that the user will get. 
 #Each exercise is also created to have a clickable link to a video or picture on how to do it
 exercise_2_link = defaultdict(constant_factory('#'))
@@ -90,7 +91,7 @@ exercise_2_link['lying leg curls'] = 'https://www.youtube.com/watch?v=dBo-Pw2a2h
 exercise_2_link['single-leg deadlift'] = 'http://www.sweatlikeapig.com/wp-content/uploads/2013/04/single-leg-barbell-straight-leg-deadlift.jpg'
 exercise_2_link['step-ups'] = 'http://cdn.builtlean.com/wp-content/uploads/2011/10/step-ups-leg-superset-cardio-workout-1.jpg'
 exercise_2_link['floor glute-ham raise'] = 'https://www.youtube.com/watch?v=od6refujbEY'
-
+'''
 app = Flask(__name__)
 
 app.debug = True
@@ -202,7 +203,7 @@ def render_generator():
 @app.route('/muscle-group-checklist')
 def render_muscle_group_checklist():
     return render_template('muscle-group-checklist.html')
-
+'''
 import random
 #lists of each exercise for each muscle group 
 biceps = ["barbell curls", "alternating dumbbell curls", "hammer curls", "zottman curls", "spider curls"]
@@ -238,7 +239,7 @@ def workout(bis_result, tris_result, delts_result, pecs_result, lats_result, cor
     if hammies_result == True:
         your_workout.append(randomExercise(hamstrings))
     return your_workout
-
+'''
 @app.route('/your-workout')
 def your_workout():
     try:
