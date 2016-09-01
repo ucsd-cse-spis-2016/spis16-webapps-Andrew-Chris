@@ -32,7 +32,7 @@
         </li>
    </ul>
    <ul>
-      {% if logged_in %}
+      <!--{% if logged_in %}
         <li width="0">
           <a href="#">
             <img src="{{ session['user_data']['avatar_url'] }}&s=30" 
@@ -41,9 +41,17 @@
 	</li>
         <li width="0"> Github ID: {{ session['user_data']['login']}}</li>
 	    {% endif %}
-        <li width="0">
-	    {% if logged_in %}
-	      <a href="/logout">Logout</a>
+        <li width="0">-->
+	{% if logged_in %}
+		<li class="dropdown">
+          		<a href="#">
+            			<img src="{{ session['user_data']['avatar_url'] }}&s=30" width="30px" height="30px" style="display: inline-block;" >
+			</a>
+			<ul class="sub-menu">
+				<li><a href="/logout">Logout</a></li>
+				<li><a href="#">Account</a></li>
+		</li>
+	      
 	    {% else %}
 	      <a href="/login" data-ajax="false">Login</a>
 	    {% endif %}
