@@ -1,21 +1,6 @@
 <!doctype html>
 <html>
-  <!-- Dropdown Menu JS -->
-  <script>
-      $(document).ready(function(){
-        $('.dropdown').hover(
-          function(){
-            $(this).children('.sub-menu').slideDown(35,stop());
-            },
-          function(){
-            $(this).children('.sub-menu').slideUp(35,stop());
-            }
-        );
-        function stop(){
-          $('.sub-menu').stop(true, true);
-        }
-      });
-  </script>
+
 
 <head>
   <title>{% block title %}{% endblock %} SPIS Fitness</title>
@@ -36,6 +21,22 @@ $(document).bind("mobileinit", function () {
   <script src="js/jquery-1.9.1.min.js"></script>
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
+  <!-- Dropdown Menu JS -->
+  <script>
+      $(document).ready(function(){
+        $('.dropdown').hover(
+          function(){
+            $(this).children('.sub-menu').slideDown(35,stop());
+            },
+          function(){
+            $(this).children('.sub-menu').slideUp(35,stop());
+            }
+        );
+        function stop(){
+          $('.sub-menu').stop(true, true);
+        }
+      });
+  </script>
   
 </head>
 
