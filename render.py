@@ -7,6 +7,7 @@ import pprint
 import os
 import sys
 import traceback
+import exercises
 from exercises import exercise_2_link
 
 class GithubOAuthVarsNotDefined(Exception):
