@@ -32,7 +32,7 @@ exercise_2_link['spider curls'] = 'http://assets.menshealth.co.uk/main/thumbs/33
 
 #Triceps
 exercise_2_link['tricep dips'] = 'http://hiitacademy.com/wp-content/uploads/2015/02/tricep_dips_feet_ext-1024x495.jpg'
-exercise_2_link['skullcrushers'] = 'https://www.youtube.com/watch?v=gXbSA9EKUtA'
+exercise_2_link['skullcrushers'] = 'https://www.youtube.com/embed/gXbSA9EKUtA'
 exercise_2_link['overhead dumbbell extensions'] = 'http://www.musclemag.com/content/content/9797/dumbbel-overhead-triceps-extension.jpg'
 exercise_2_link['tricep pushdowns'] = 'http://truthofbuildingmuscle.com/wp-content/uploads/2015/01/tricep_pushdown_rope.jpg'
 
@@ -75,8 +75,8 @@ exercise_2_link['goblet squat'] = 'http://www.directlyfitness.com/store/wp-conte
 exercise_2_link['box jumps'] = 'http://www.outsideonline.com/sites/default/files/styles/three-quarter-page-scaled-1x/public/migrated-images/December2011_BoxJumps_11142011_Featured.jpg?itok=miihcTWH'
 
 #Hamstrings
-exercise_2_link['barbell deadlift'] = 'https://www.youtube.com/watch?v=RovZFcTK_Gg'
-exercise_2_link['lying leg curls'] = 'https://www.youtube.com/watch?v=dBo-Pw2a2h8'
+exercise_2_link['barbell deadlift'] = 'https://www.youtube.com/embed/RovZFcTK_Gg'
+exercise_2_link['lying leg curls'] = 'https://www.youtube.com/embed/dBo-Pw2a2h8'
 exercise_2_link['single-leg deadlift'] = 'http://www.sweatlikeapig.com/wp-content/uploads/2013/04/single-leg-barbell-straight-leg-deadlift.jpg'
 exercise_2_link['step-ups'] = 'http://cdn.builtlean.com/wp-content/uploads/2011/10/step-ups-leg-superset-cardio-workout-1.jpg'
-exercise_2_link['floor glute-ham raise'] = 'https://www.youtube.com/watch?v=od6refujbEY'
+exercise_2_link['floor glute-ham raise'] = 'https://www.youtube.com/embed/od6refujbEY'
