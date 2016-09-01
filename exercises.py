@@ -47,7 +47,7 @@ exercise_2_link['dumbbell shoulder rows'] = 'http://gym-inspiration.com/uploads/
 exercise_2_link['barbell bench press'] = 'http://stronglifts.com/wp-content/uploads/bench-press.jpg'
 exercise_2_link['dumbbell fly'] = 'http://www.building-muscle101.com/images/xdumbbell-flyes-main.jpg.pagespeed.ic.MVYe92s52y.jpg'
 exercise_2_link['decline push-ups'] = 'http://www.building-muscle101.com/images/xdumbbell-flyes-main.jpg.pagespeed.ic.MVYe92s52y.jpg'
-exercise_2_link['cable chest crossover'] = 'https://www.youtube.com/watch?v=taI4XduLpTk'
+exercise_2_link['cable chest crossover'] = 'https://www.youtube.com/embed/taI4XduLpTk'
 
 #Back
 exercise_2_link['pull-ups'] = 'https://qph.ec.quoracdn.net/main-qimg-4436150aea610f6bb632a22d62526242?convert_to_webp=true'
