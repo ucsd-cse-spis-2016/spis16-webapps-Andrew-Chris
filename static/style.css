@@ -22,6 +22,9 @@ p {
     margin: 0 0 23px 0;
     }
 
+ul {
+    list-style-type: none
+}
 
 nav {
     z-index: 10;
