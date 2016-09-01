@@ -13,6 +13,8 @@
  <li>
  <!-- Takes the user's workout & provides links for exercise from exercise_2_link dictionary-->
  <a href= '{{ exercise_2_link [w]}}'>{{ w }}</a><br>
+ <br>
+ <br>
  {% if is_video( exercise_2_link [w] ): %}
   <iframe width="auto" height="auto" src='{{ exercise_2_link [w]}}' frameborder="0" allowfullscreen></iframe>
  {% else %}
