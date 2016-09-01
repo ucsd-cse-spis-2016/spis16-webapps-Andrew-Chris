@@ -243,5 +243,10 @@ def render_hammies():
 def get_github_oauth_token():
     return session.get('github_token')
     
+def clever_function():
+    return u'HELLO'
+
+app.jinja_env.globals.update(clever_function=clever_function)    
+
 if __name__=="__main__":
     app.run(debug=True, port=54322)
