@@ -7,7 +7,6 @@ import pprint
 import os
 import sys
 import traceback
-import exercises
 from exercises import exercise_2_link
 
 class GithubOAuthVarsNotDefined(Exception):
@@ -146,6 +145,19 @@ def render_generator():
 def render_muscle_group_checklist():
     return render_template('muscle-group-checklist.html')
 
+
+import random
+
+#Exercises
+
+biceps = ["barbell curls", "alternating dumbbell curls", "hammer curls", "zottman curls", "spider curls"]
+triceps= ["tricep dips", "skullcrushers", "overhead dumbbell extensions", "tricep pushdowns"]
+shoulders = ["barbell overhead press", "dumbbell overhead press", "dumbbell front/side raises", "barbell shoulder rows", "dumbbell shoulder rows"]
+chest = ["barbell bench press", "dumbbell fly", "decline push-ups", "cable chest crossover"]
+back = ["pull-ups", "bent-over barbell row", "lat pulldowns", "one arm dumbbell row", "t-bar row", "back extension"]
+core = ["planks", "russian twists", "bicycles", "windshield wipers", "v-ups", "side v-ups", "medicine ball throws", "mountain climbers"]
+quads = ["barbell squat", "lunges", "wall-sits", "goblet squat", "box jumps"]
+hams = ["barbell deadlift", "lying leg curls", "single-leg deadlift", "step-ups", "floor glute-ham raise"]
 
 #chooses a random exercise from a certain list
 def randomExercise(list):
