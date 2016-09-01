@@ -11,6 +11,7 @@ hams = ["barbell deadlift", "lying leg curls", "single-leg deadlift", "step-ups"
 
 exercises = [biceps, triceps, shoulders, chest, back, core, quads, hams]
 
+from collections import defaultdict
 
 #Creates the dictionary of exercises that the user will get. 
 #Each exercise is also created to have a clickable link to a video or picture on how to do it
