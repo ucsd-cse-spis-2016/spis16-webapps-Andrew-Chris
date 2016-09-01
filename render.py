@@ -244,8 +244,11 @@ def get_github_oauth_token():
     return session.get('github_token')
     
 def is_video(url):
-    '''Return true if string url contatins "youtube", otherwise false'''
-    return false
+    '''Return true if string url contatins "youtube", otherwise false'''\
+    if 'youtube' in 'url':
+        return True
+    else:
+        return False
 
 app.jinja_env.globals.update(is_video=is_video)    
 
