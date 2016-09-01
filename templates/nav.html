@@ -17,6 +17,18 @@
     <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/generator">Generator</a></li>
+   </ul>
+   <ul>
+      <!--{% if logged_in %}
+        <li width="0">
+          <a href="#">
+            <img src="{{ session['user_data']['avatar_url'] }}&s=30" 
+		        width="30px" height="30px" style="display: inline-block;" >
+		</a>
+	</li>
+        <li width="0"> Github ID: {{ session['user_data']['login']}}</li>
+	    {% endif %}
+        <li width="0">-->
         <li class="dropdown">
             <a href="/exercises">Exercises ></a>
             <ul class="sub-menu">
@@ -30,18 +42,6 @@
                 <li><a href="/exercises/hammies">Hamstrings</a></li>
             </ul>
         </li>
-   </ul>
-   <ul>
-      <!--{% if logged_in %}
-        <li width="0">
-          <a href="#">
-            <img src="{{ session['user_data']['avatar_url'] }}&s=30" 
-		        width="30px" height="30px" style="display: inline-block;" >
-		</a>
-	</li>
-        <li width="0"> Github ID: {{ session['user_data']['login']}}</li>
-	    {% endif %}
-        <li width="0">-->
 	{% if logged_in %}
 		<li class="dropdown">
           		<a href="#">
