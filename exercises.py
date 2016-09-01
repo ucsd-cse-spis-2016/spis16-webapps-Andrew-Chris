@@ -1,3 +1,5 @@
+import random
+
 #Exercises
 
 biceps = ["barbell curls", "alternating dumbbell curls", "hammer curls", "zottman curls", "spider curls"]
@@ -60,7 +62,7 @@ exercise_2_link['planks'] = 'https://15128-presscdn-0-60-pagely.netdna-ssl.com/w
 exercise_2_link['russian twists'] = 'http://maltapersonaltraining.com/wp-content/uploads/2014/06/russian-twist-.jpg'
 exercise_2_link['bicycles'] = 'http://hiitacademy.com/wp-content/uploads/2015/02/bicycle_abs.jpg'
 exercise_2_link['windshield wipers'] = 'https://www.youtube.com/watch?v=Fuccu9GFO6g'
-exercise_2_link['v-ups'] = 'http://3hh6gt2tuded1bgtz92lingb-wpengine.netdna-ssl.com/wp-content/uploads/2016/02/V-Ups.jpg'
+exercise_2_link['v-ups'] = 'https://www.youtube.com/embed/iP2fjvG0g3w'
 exercise_2_link['side v-ups'] = 'http://www.womenshealthmag.com/sites/womenshealthmag.com/files/images/0912-oblique-v-up.jpg'
 exercise_2_link['medicine ball throws'] = 'https://www.youtube.com/watch?v=5lDV_R-k9js'
 exercise_2_link['mountain climbers'] = 'http://hiitacademy.com/wp-content/uploads/2015/02/mountain_climbers.jpg'
