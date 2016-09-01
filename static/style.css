@@ -15,7 +15,7 @@ nav ul li {
 /* sub navigation */
 nav li ul {    
     position:absolute;
-    left:auto;
+    left:0;
     top:auto; /* make this equal to the line-height of the links (specified below) */
     width:100%;
 }
