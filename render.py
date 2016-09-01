@@ -243,10 +243,11 @@ def render_hammies():
 def get_github_oauth_token():
     return session.get('github_token')
     
-def clever_function(x):
-    return x
+def is_video(url):
+    '''Return true if string url contatins "youtube", otherwise false'''
+    return false
 
-app.jinja_env.globals.update(clever_function=clever_function)    
+app.jinja_env.globals.update(is_video=is_video)    
 
 if __name__=="__main__":
     app.run(debug=True, port=54322)
