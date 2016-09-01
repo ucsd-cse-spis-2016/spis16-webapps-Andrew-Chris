@@ -20,14 +20,14 @@ nav li ul {
     width:100%;
 }
 nav li li {
-    position:relative;
+    position:below;
     margin:0;
     display:block;
 }
 nav li li ul {
     position:absolute;
     top:0;
-    left:200px; /* make this equal to the width of the sub nav above */
+    left:auto; /* make this equal to the width of the sub nav above */
     margin:0;
 }
 
