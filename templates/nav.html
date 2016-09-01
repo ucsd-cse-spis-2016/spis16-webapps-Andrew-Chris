@@ -31,16 +31,16 @@
             </ul>    
         </li>
     </ul>
-    <ul class="nav navbar-nav navbar-right">
+    <ul>
       {% if logged_in %}
         <li>
           <a href="#">
             <img src="{{ session['user_data']['avatar_url'] }}&s=30" 
-		        width="auto" height="relative" style="display: inline-block;" >
+		        width="30px" height="30px" style="display: inline-block;" >
 		      </a>
 		    </li>
 		    <li>{{ session['user_data']['name']}}</p></li>	
-        <li>Github ID: {{ session['user_data']['login']}}</li>
+        <li> Github ID: {{ session['user_data']['login']}}</li>
 	    {% endif %}
         <li>
 	    {% if logged_in %}
