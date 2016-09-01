@@ -90,6 +90,10 @@ nav li li:last-child a {
     border-bottom:none;
 }
 
+#github li {
+    height:30px;
+}
+
 /* hide sub menu links */
 ul.sub-menu {
     display:none;
