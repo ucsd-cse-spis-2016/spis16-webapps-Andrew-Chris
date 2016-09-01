@@ -12,14 +12,14 @@
  {% for w in Workout_list %}
  <li>
   <!-- Takes the user's workout & provides links for exercise from exercise_2_link dictionary-->
-  <h2><a href= '{{ exercise_2_link [w]}}'>{{ w }}</a>
+  <h2><a href= '{{ exercise_2_link [w]}}'>{{ w }}</a><br>
   {% if is_video( exercise_2_link [w] ): %}
    <iframe width="auto" height="auto" src='{{ exercise_2_link [w]}}' frameborder="0" allowfullscreen></iframe>
   {% else %}
    <img src='{{ exercise_2_link [w]}}' style="max-width:100%; max-height:auto;">
   {% endif %}
   </h2>
-  
+  <br>
  </li>
   
  {% endfor %}
