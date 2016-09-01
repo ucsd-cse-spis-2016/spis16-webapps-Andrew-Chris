@@ -24,7 +24,7 @@ nav li ul {
 }
 nav li li {
     z-index: 10;
-    position:relative;
+    position:absolute;
     margin:0;
     display:block;
 }
