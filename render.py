@@ -245,7 +245,7 @@ def get_github_oauth_token():
     
 def is_video(url):
     '''Return true if string url contatins "youtube", otherwise false'''\
-    if 'youtube' in 'url':
+    if 'youtube' in url:
         return True
     else:
         return False
