@@ -3,28 +3,33 @@ nav {
     padding:auto;
 }
 nav ul {
+    z-index: 10;
     list-style-type:none;
     margin:0;
     padding:auto;
 }
 nav ul li {
+    z-index: 10;
     display:inline-block;
     position:relative;
 }
 
 /* sub navigation */
 nav li ul {    
+    z-index: 10;
     position:absolute;
     left:0;
     top:auto; /* make this equal to the line-height of the links (specified below) */
     width:100%;
 }
 nav li li {
-    position:relative;
+    z-index: 10;
+    position:absolute;
     margin:0;
     display:block;
 }
 nav li li ul {
+    z-index: 10;
     position:absolute;
     top:0;
     left:auto; /* make this equal to the width of the sub nav above */
@@ -33,11 +38,13 @@ nav li li ul {
 
 /* style all links */
 nav a {
+    z-index: 10;
     line-height:auto;
     padding:auto;
     margin:0;
 }
 nav a {
+    z-index: 10;
     color:#fff;
     text-decoration:none;
     display:block;
@@ -50,11 +57,13 @@ nav a:active {
 
 /* style sub level links */
 nav li li a {
+    z-index: 10;
     border-bottom:solid 1px rgb(200,50,50);
     margin:0;
     padding:auto;
 }
 nav li li:last-child a {
+    z-index: 10;
     border-bottom:none;
 }
 
