@@ -27,7 +27,7 @@ exercise_2_link = defaultdict(constant_factory('#'))
 exercise_2_link['barbell curls'] = 'http://www.drdarden.com/forum_images/407723.1131124795296.barbell_curl.gif'
 exercise_2_link['alternating dumbbell curls'] = 'http://2.bp.blogspot.com/-ErA2Xwvs0qc/Vf-W7rQhCOI/AAAAAAAAAJI/EFgT0mmqqm8/s1600/women%2527s%2Bhealth%2B-%2BALTERNATING%2BDUMBBELL%2BSUPINATED%2BCURL%2B00047.jpeg'
 exercise_2_link['hammer curls'] = 'http://bodybuilding-wizard.com/wp-content/uploads/2015/08/standing-hammer-curls-2-9.jpg'
-exercise_2_link['zottman curls'] = 'https://www.youtube.com/watch?v=H5Wr4lNYfn8'
+exercise_2_link['zottman curls'] = 'https://www.youtube.com/embed/H5Wr4lNYfn8'
 exercise_2_link['spider curls'] = 'http://assets.menshealth.co.uk/main/thumbs/33059/prone-dumbbell-spider-curl__landscape.jpg'
 
 #Triceps
